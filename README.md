@@ -1,20 +1,20 @@
 # Kaspa Websites
 
-A decentralized web platform built on the Kaspa blockchain. Create, encrypt, and navigate HTML websites stored permanently on-chain.
+A decentralized web platform built on the Kaspa blockdag. Create, encrypt, and navigate HTML websites stored impermanently on-chain.
 
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Kaspa](https://img.shields.io/badge/blockchain-Kaspa-purple)
+![Kaspa](https://img.shields.io/badge/blockdag-Kaspa-purple)
 
 ## 🌟 Features
 
 ### Core Features
-- 📝 **Create HTML Websites** - Store websites permanently on the Kaspa blockchain
+- 📝 **Create HTML Websites** - Store websites impermanently on the Kaspa blockdag (data is pruned on Kaspa every 3 days)
 - 🔒 **Encryption** - Password-protect your websites with AES-256-GCM encryption
-- 🔗 **Decentralized Navigation** - Link between blockchain pages using transaction IDs
+- 🔗 **Decentralized Navigation** - Link between blockdag pages using transaction IDs
 - 🖼️ **Image Support** - Embed images as base64 or use external HTTPS images
-- 🌐 **Chrome Extension** - Easy viewing of blockchain websites
-- 💾 **Permanent Storage** - Immutable, censorship-resistant content
+- 🌐 **Chrome Extension** - Easy viewing of blockdag websites
+- 💾 **Impermanent Storage** - Immutable, censorship-resistant content
 
 ### Advanced Features
 - Password visibility toggle
@@ -30,7 +30,7 @@ A decentralized web platform built on the Kaspa blockchain. Create, encrypt, and
 
 1. Open `web/kaspa-websites-complete.html` in a browser
 2. Connect your KasWare wallet
-3. Create or view blockchain websites
+3. Create or view blockdag websites
 
 ### Chrome Extension
 
@@ -70,7 +70,7 @@ kaspa-websites/
 1. **Write HTML** - Create your HTML content
 2. **Optional Encryption** - Toggle encryption and set a password
 3. **Embed Images** - Upload images to convert to base64
-4. **Send Transaction** - Store on Kaspa blockchain via KasWare wallet
+4. **Send Transaction** - Store on Kaspa blockdag via KasWare wallet
 5. **Get TX ID** - Receive permanent transaction ID
 
 ### Viewing a Website
@@ -102,7 +102,7 @@ Websites can be encrypted using AES-256-GCM:
 - ✅ CSS (inline and external HTTPS)
 - ✅ JavaScript (inline and external HTTPS)
 - ✅ Images (base64 embedded or HTTPS)
-- ✅ Links to other blockchain pages
+- ✅ Links to other blockdag pages
 - ✅ Encryption with password protection
 
 ### Limitations
@@ -114,11 +114,11 @@ Websites can be encrypted using AES-256-GCM:
 ## 🎯 Use Cases
 
 - **Decentralized Blogs** - Censorship-resistant content
-- **Private Documents** - Encrypted, permanent storage
+- **Private Documents** - Encrypted, impermanent storage
 - **NFT Websites** - On-chain HTML for NFTs
-- **Permanent Records** - Immutable documentation
+- **Impermanent Records** - Immutable documentation
 - **Decentralized Wiki** - Linked knowledge base
-- **Web3 Portfolios** - Permanent personal sites
+- **Web3 Portfolios** - impermanent personal sites
 
 ## 🔧 Requirements
 
@@ -162,7 +162,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [Kaspa](https://kaspa.org/) - The blockchain platform
+- [Kaspa](https://kaspa.org/) - The blockdag platform
 - [KasWare](https://www.kaswallet.io/) - Wallet integration
 - The Kaspa community
 
